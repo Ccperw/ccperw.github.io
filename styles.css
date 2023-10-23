@@ -1,0 +1,22 @@
+body {
+    background:teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.assign {
+    display:flex;
+    padding:10px;
+    background:grey;
+    margin:10px;
+}
+
+.assign img {
+    width:200px;
+    padding:10px;
+}
+
+
+h1 {
+    color:teal;
+    text-alignt:center;
+}
