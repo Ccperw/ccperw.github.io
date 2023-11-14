@@ -1,22 +1,43 @@
 body {
-    background:teal;
+    background:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .assign {
     display:flex;
     padding:10px;
-    background:grey;
+    background:#1e8b9e;
     margin:10px;
+    border-radius:15px;
 }
 
 .assign img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:4px solid grey;
+}
+
+.assign img:hover {
+    width:200px;
+    margin:10px;
+    border:4px solid black;
 }
 
 
 h1 {
-    color:teal;
-    text-alignt:center;
+    color:#1e8b9e;
+    text-align:center;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+b {
+    color:white;
+}
+
+a:hover {
+    color:grey;
 }
