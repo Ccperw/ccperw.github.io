@@ -1,14 +1,19 @@
 body {
     background:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .assign {
-    display:flex;
+    display: block;
     padding:10px;
     background:#1e8b9e;
     margin:10px;
     border-radius:15px;
+    width:20%;
+    box-shadow: 8px 8px grey;
+    border-radius: 20px;
 }
 
 .assign img {
@@ -25,6 +30,8 @@ body {
 
 
 h1 {
+    width: 100%;
+    display: block;
     color:#1e8b9e;
     text-align:center;
 }
